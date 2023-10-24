@@ -1,0 +1,126 @@
+.imgFondo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(simon-berger-twukN12EN7c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenIMg {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    animation: spin 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    padding: 10px;
+}
+
+h3 {
+    color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+.borde-inferior {
+    color: white;
+}
+
+.Acerca-de {
+    width: 100%;
+    padding: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer>a {
+    background-color: #0077B5;
+    /*Colordefondo*/
+    border: none;
+    /*Sinborde*/
+    color: white;
+    /*Colordeltexto*/
+    padding: 15px 15px;
+    /*Espaciointerno*/
+    text-align: center;
+    /*Alineacióndeltexto*/
+    text-decoration: none;
+    /*Sinsubrayado*/
+    display: inline-block;
+    /*Mostrarcomobloque*/
+    font-size: 16px;
+    /*Tamañodefuente*/
+    margin: 4px 2px;
+    /*Margen*/
+    cursor: pointer;
+    /*Cambiarelcursoralpasarelmouse*/
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
